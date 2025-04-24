@@ -5,13 +5,14 @@ import productRoutes from "./routes/product.route.js";
 
 dotenv.config();
 const app = express();
+const PORT = process.env.PORT || 9000;
 
 // Function that responds before we send the client a response
 app.use(express.json()); // Middleware to parse JSON bodies
 
 app.use("/api/products", productRoutes);
 
-app.listen(9000, () => {
+app.listen(PORT, () => {
   connectDB();
   console.log("Server is running on port 9000");
 });
