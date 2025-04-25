@@ -1,7 +1,7 @@
 # Pet Store
 
 <p align="center">
-  <img width="350" alt="pet-logo" src="https://github.com/user-attachments/assets/5636ebb0-8664-4467-8453-972d66f69f1d">
+  <img width="350" alt="pet-logo" src="https://github.com/user-attachments/assets/f7da2aae-9d42-4f18-b475-56fe4dae7ef7">
 </p>
 
 # About
