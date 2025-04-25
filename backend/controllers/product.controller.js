@@ -24,6 +24,7 @@ export const createProduct = async (req, res) => {
     res.status(201).json(newProduct);
   } catch (error) {
     console.error(error);
+    res.status(500).json({ message: "Internal server error" });
   }
 };
 
